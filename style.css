@@ -8,6 +8,7 @@ body {
     padding: 10px;
     color: darkgray;
     font-family: "Roboto", sans-serif;
+    min-width: 320px;
 }
 header {
     position: relative;
@@ -191,7 +192,7 @@ footer {
     }
 
     .alone figure {
-        height: 90%;
+        width: 90%;
     }
 
     .alone figure img{
@@ -199,4 +200,47 @@ footer {
         height: 100%;
 
     }
+
+    nav ul {
+        margin: 10px 0;
+        padding: 0;
+    }
+    }
+
+    nav ul li a{
+        font-size: larger;
+    }
 }
+
+
+
+@media only screen and (max-width: 320px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
